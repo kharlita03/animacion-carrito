@@ -1,0 +1,109 @@
+.fondo{
+    margin: 0;
+    background-image: url(./imagenes/fondo1.png);
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  
+}
+
+@keyframes fondito{
+    100%{
+background-position-x: -13567px;
+    }
+
+}
+
+.fondo_mover{
+    animation: fondito 20s linear infinite;
+}
+
+.rueda_1{
+    width: 10rem;
+    margin-bottom: 25rem;
+    margin-left: 43rem;
+    margin-top: -152px;
+    /* animation: rueda1-animada 2s linear infinite; */
+
+}
+
+.rueda_2{
+    width: 10rem;
+    margin-bottom: 27rem;
+    margin-left: 68rem;
+    margin-top: -722px;
+    /* animation: rueda2-animada 2s linear infinite; */
+}
+
+.rueda_mover{
+    animation: rueda1-animada 2s linear infinite;
+    animation: rueda2-animada 2s linear infinite;
+}
+
+.carrito img{
+    width: 30rem;
+    margin-top: 35rem;
+    margin-left: 45rem;
+    
+}
+
+/* .rueda1{
+    width: 10rem;
+    margin-bottom: 25rem;
+    margin-left: 43rem;
+    margin-top: -152px;
+
+} */
+
+
+
+@keyframes rueda1-animada{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* .rueda2{
+    width: 10rem;
+    margin-bottom: 27rem;
+    margin-left: 68rem;
+    margin-top: -722px;
+}
+ */
+@keyframes rueda2-animada{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.luz img{
+    width: 10rem;
+    margin-left: 41rem;
+    margin-top: -50rem;
+    margin-bottom: 39rem;
+    animation: luz-animada 1s linear infinite;
+}
+
+.luz1 img{
+    width: 10rem;
+    margin-left: 69rem;
+    margin-top: -50rem;
+    margin-bottom: 40rem;
+}
+@keyframes luz-animada{
+    0%{
+    opacity: 0 ;
+    }
+
+    100%{
+        opacity: 1 ;
+        }
+
+}
+
+.oculto{
+    display: none;
+}
+
